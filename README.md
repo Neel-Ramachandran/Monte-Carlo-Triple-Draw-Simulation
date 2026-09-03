@@ -20,7 +20,7 @@ Then open the local URL it prints, usually http://localhost:5173.
 
 ## What it does
 
-- Type in a hand like `9s 6h 4d 3c 2s` or hit "Deal random"
+- Type in a hand like `9s 6h 4d 3c 2s` or hit "Deal random" (use `T` for ten, e.g. `Ts`, not `10s`)
 - Runs 30,000 trials by default (adjustable in the UI), drawing over three draw rounds like a real hand
 - Shows the final hand distribution bucketed from 7-low all the way down to Pair+
 - Pat-vs-break panel that keeps your made hand versus breaking the top card to
