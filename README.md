@@ -23,8 +23,9 @@ Then open the local URL it prints, usually http://localhost:5173.
 - Type in a hand like `9s 6h 4d 3c 2s` or hit "Deal random" (use `T` for ten, e.g. `Ts`, not `10s`)
 - Runs 30,000 trials by default (adjustable in the UI), drawing over three draw rounds like a real hand
 - Shows the final hand distribution bucketed from best (7-low) to worst (Pair+)
-- Pat-vs-break panel that keeps your made hand versus breaking the top card to
-  draw one, and tells you how often breaking ends up better, tied, or worse
+- Pat-vs-break panel that compares keeping your made hand versus breaking the
+  top card to draw one, and tells you how often breaking ends up better, tied,
+  or worse
 
 The point is to put an actual number on a decision that's usually just feel. If
 you've got a rough made 9, is it worth breaking to a smoother draw? Run it and
