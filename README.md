@@ -18,6 +18,9 @@ npm run dev
 
 Then open the local URL it prints, usually http://localhost:5173.
 
+To build a production bundle instead, use `npm run build` (output goes to
+`dist/`), and preview it locally with `npm run preview`.
+
 ## What it does
 
 - Type in a hand like `9s 6h 4d 3c 2s` or hit "Deal random" (use `T` for ten, e.g. `Ts`, not `10s`)
