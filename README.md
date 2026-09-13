@@ -24,7 +24,7 @@ To build a production bundle instead, use `npm run build` (output goes to
 ## What it does
 
 - Type in a hand like `9s 6h 4d 3c 2s` or hit "Deal random" (use `T` for ten, e.g. `Ts`, not `10s`)
-- Runs 30,000 trials by default (adjustable in the UI), playing out three draw rounds like a real hand
+- Runs 30,000 trials by default (adjustable in the UI, minimum 1,000), playing out three draw rounds like a real hand
 - Shows the final hand distribution bucketed from best (7-low) to worst (Pair+)
 - Pat-vs-break panel that compares keeping your made hand versus breaking the
   top card to draw one, and tells you how often breaking ends up better, tied,
