@@ -27,7 +27,7 @@ To build a production bundle instead, use `npm run build` (output goes to
 - Runs 30,000 trials by default (adjustable in the UI, minimum 1,000), playing out three draw rounds like a real hand
 - Shows the final hand distribution bucketed from best (7-low) to worst
   (Pair+, which lumps together every non-qualifying hand: pairs, two pair,
-  trips, straights, flushes, full houses, and quads)
+  trips, straights, flushes, full houses, quads, and straight flushes)
 - Pat-vs-break panel that compares keeping your made hand versus breaking the
   top card to draw one, and tells you how often breaking ends up better, tied,
   or worse
