@@ -38,9 +38,10 @@ see.
 
 ## How the sim works
 
-For each trial it applies your keep decision, deals replacements off the
-remaining deck, then does two more draws using a simple heuristic that keeps the
-lowest unpaired cards. After three draws it scores the final hand with a 2-7
+Standing pat is deterministic (no cards change, so it's scored once). Breaking
+is simulated: for each trial it deals a replacement off the remaining deck,
+then does two more draws using a simple heuristic that keeps the lowest
+unpaired cards. After three draws it scores the final hand with a 2-7
 evaluator where lower is better and straights and flushes get pushed down the
 rankings.
 
