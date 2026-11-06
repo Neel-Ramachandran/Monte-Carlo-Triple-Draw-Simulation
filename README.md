@@ -40,10 +40,10 @@ see.
 
 Standing pat is deterministic (no cards change, so it's scored once). Breaking
 is simulated: for each trial it deals a replacement off the remaining deck,
-then does two more draws using a simple heuristic that keeps the lowest
-unpaired cards. After three draws it scores the final hand with a 2-7
-evaluator where lower is better and straights and flushes get pushed down the
-rankings.
+then plays out up to two more draws using a simple heuristic that keeps the
+lowest unpaired cards, stopping early if that heuristic hand is already pat.
+After the draws finish it scores the final hand with a 2-7 evaluator where
+lower is better and straights and flushes get pushed down the rankings.
 
 ## Known limitation
 
